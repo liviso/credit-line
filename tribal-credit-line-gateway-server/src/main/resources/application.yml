@@ -1,0 +1,8 @@
+server:  port: 8090
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: TRIBAL-CREDIT-LINE
+        uri: lb://TRIBAL-CREDIT-LINE        predicates:          - Path=/api/gateway/**
+        filters:          - StripPrefix=2   application:    name: tribal-check-credit-line-gateway
