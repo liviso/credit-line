@@ -5,7 +5,7 @@
 Microservice that determines the credit line that better suits to the customers in Tribal.
 
 ## Architecture
-![](credit-line/tribal-credit-line/src/main/resources/Diagram.png)
+![](images/Diagram.png)
 
 
 ## Getting Started
