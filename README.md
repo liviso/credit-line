@@ -7,6 +7,10 @@ Microservice that determines the credit line that better suits to the customers 
 ## Architecture
 ![](images/Diagram.png)
 
+![](images/swaggerdefinition.png)
+
+![](images/Eurekaserver.png)
+
 
 ## Getting Started
 
